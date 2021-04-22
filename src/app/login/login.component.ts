@@ -9,6 +9,7 @@ import { User } from '../models/user';
 export class LoginComponent implements OnInit {
 
   users: User[] = [];
+  result = '';
 
   constructor() { }
 
@@ -24,4 +25,8 @@ export class LoginComponent implements OnInit {
     ]
   }
 
+  onRatingClick(event: string): void {
+    console.log('Received data from rating : ' + event);
+    this.result = 'Received data from rating : ' + event;
+  }
 }
