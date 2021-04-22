@@ -1,1 +1,2 @@
-<p>quiz works!</p>
+<app-like-button [likeCounter]=likeCounter (likeClicked)="doLiked($event)" [active]=liked></app-like-button>
+<app-dislike-button [dislikeCounter]=dislikeCounter (dislikeClicked)="doDisliked($event)" [active]=disliked></app-dislike-button>

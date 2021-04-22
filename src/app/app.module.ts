@@ -10,6 +10,8 @@ import { RatingComponent } from './rating/rating.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MainComponent } from './main/main.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { LikeButtonComponent } from './like-button/like-button.component';
+import { DislikeButtonComponent } from './dislike-button/dislike-button.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { QuizComponent } from './quiz/quiz.component';
     MyUpperCasePipe,
     RatingComponent,
     MainComponent,
-    QuizComponent
+    QuizComponent,
+    LikeButtonComponent,
+    DislikeButtonComponent
   ],
   imports: [
     BrowserModule,
