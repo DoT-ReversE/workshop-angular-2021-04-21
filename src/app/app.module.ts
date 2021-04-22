@@ -8,13 +8,17 @@ import { LoginComponent } from './login/login.component';
 import { MyUpperCasePipe } from './my-upper-case.pipe';
 import { RatingComponent } from './rating/rating.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MainComponent } from './main/main.component';
+import { QuizComponent } from './quiz/quiz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     MyUpperCasePipe,
-    RatingComponent
+    RatingComponent,
+    MainComponent,
+    QuizComponent
   ],
   imports: [
     BrowserModule,
@@ -23,6 +27,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FontAwesomeModule
   ],
   providers: [],
-  bootstrap: [LoginComponent]
+  bootstrap: [MainComponent]
 })
 export class AppModule { }
