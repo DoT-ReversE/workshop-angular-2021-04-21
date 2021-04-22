@@ -18,8 +18,9 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
     this.users = [
-      new User(1, "User 01", "Last 01", "xxx@demo1.com"),
-      new User(2, "User 02", "Last 02", "xxx@demo2.com"),
+      new User(1, "User 01", "Last 01", "xxx@demo1.com", 1),
+      new User(2, "User 02", "Last 02", "xxx@demo2.com", 2),
+      new User(3, "User 03", "Last 03", "xxx@demo3.com", 3),
     ]
   }
 
