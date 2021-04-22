@@ -8,8 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
   name = 'Chanon Chokethaworn';
   result = '...';
+  username = '';
 
   onPress(event: any) {
     this.result = event.target.value;
+  }
+
+  doSomething() {
+    console.log("Clicked")
+    this.result = "Change from clicked !!";
   }
 }
